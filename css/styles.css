@@ -1,0 +1,153 @@
+:root {
+    --brand-color-blue-light: #2196F3;
+    --brand-color-blue: #3f51b5;    
+    --brand-color-black: #000000;
+    --brand-color-black-light: #212121;
+    --brand-color-black-dark: #2F303A;
+    --brand-color-gray: #757575;
+    --brand-color-gray-light: #F5F4FA;
+    --brand-color-white: #FFFFFF;
+    --brand-color-address:rgba(255, 255, 255, 0.6);
+}
+.list {
+    list-style: none;    
+}
+.link {
+    text-decoration: none;    
+    line-height: 1.17;
+}
+.page {
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.03em;
+    background-color: var(--brand-color-white);        
+    color: var(--brand-color-black-light);
+}
+/* Подсветка */
+.site-nav .link:hover, .site-nav .link:focus, .site-nav .link.current {
+    color: var(--brand-color-blue-light);
+}
+.site-nav .link {
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    color: var(--brand-color-black-light);
+}
+/* Хедер почта телефон */
+.auth-nav-element {
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    color: var(--brand-color-gray);
+}
+.auth-nav-element:hover, .auth-nav-element:focus {
+    color: var(--brand-color-blue-light);
+}
+/* Логотип */
+.logo {        
+    font-size: 26px;
+    color: var(--brand-color-black);    
+    font-family: 'Raleway', sans-serif;    
+    line-height: 1.17;    
+}
+.logo span{
+    color: var(--brand-color-blue-light);
+}
+/* Герой */
+.hero .button {    
+    color: var(--brand-color-white);
+    background: var(--brand-color-blue-light);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    line-height: 1.88;
+}
+.hero {
+    background: var(--brand-color-black-dark);
+}
+.hero-title {    
+    text-transform: uppercase;
+    text-align: center;    
+    font-size: 44px;
+    font-weight: 900;    
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    color: var(--brand-color-white);
+}
+/* Наша команда */
+.personal { 
+    background: var(--brand-color-gray-light);
+}
+.photo-title {
+    font-weight: 500;
+    font-size: 16px;    
+    line-height: 1.17;
+    text-align: center;    
+}
+.personal-text {    
+    line-height: 1.17;
+    text-align: center;    
+    color: var(--brand-color-gray);
+}
+/* Секция картинок */
+.section-title {    
+    font-size: 36px;    
+    line-height: 1.17;
+    text-align: center;    
+}
+/* Секция коротких текстов */
+.block-title {     
+    font-size: 14px;    
+    line-height: 1.17;    
+    text-transform: uppercase;    
+}
+.block-text {    
+    font-size: 14px;    
+    line-height: 1.71;    
+    color: var(--brand-color-gray);
+}
+/* Футер */
+.logo-footer {   
+    color: var(--brand-color-white);
+}
+.footer {    
+    background: var(--brand-color-black-dark);
+}
+.address, .address .link {    
+    font-size: 14px;    
+    line-height: 1.71;    
+    color: var(--brand-color-white);
+    font-style: normal;    
+}
+.address .link {  
+    color: var(--brand-color-address);        
+} 
+.address .link:hover, .address .link:focus {    
+    color: var(--brand-color-blue-light);
+}
+/* Портфолио */
+.button {
+    color: var(--brand-color-black-light);
+    background: var(--brand-color-gray-light);
+    cursor: pointer;
+    border: 0;
+    margin: 4px;
+    height: 38px;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;    
+    letter-spacing: inherit;    
+    border-radius: 4px;      
+}
+.button:hover, .button:focus {
+    color: var(--brand-color-white);
+    background: var(--brand-color-blue-light);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+.portfolio-card-title {
+    font-size: 18px;    
+    line-height: 2;     
+    letter-spacing: 0.06em;
+}
+.portfolio-card-text {    
+    line-height: 1.88;      
+    color: var(--brand-color-gray);
+}
