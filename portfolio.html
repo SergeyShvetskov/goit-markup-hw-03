@@ -24,21 +24,24 @@
     <header class="page-header">
       <!--Логотип и навигация-->
       <div class="container">
-        <nav>
-          <a href="./index.html" class="logo logo-header link"><span>Web</span>Studio</a>
-          <ul class="site-nav list">
-            <li><a class="link" href="./index.html">Студия</a></li>
-            <li><a class="link current" href="./portfolio.html">Портфолио</a></li>
-            <li><a class="link" href="">Контакты</a></li>
+        <nav class="navigation">
+          <a class="logo logo-header link" href="./index.html"><span>Web</span>Studio</a>
+          <ul class="site-nav">
+            <li class="site-nav-element"><a class="link" href="./index.html">Студия</a></li>
+            <li class="site-nav-element">
+              <a class="link current" href="./portfolio.html">Портфолио</a>
+            </li>
+            <li class="site-nav-element"><a class="link" href="">Контакты</a></li>
           </ul>
         </nav>
-      </div>
-      <div class="container">
-        <ul class="auth-nav list">
-          <li>
-            <a class="auth-nav-element link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+
+        <ul class="auth-nav">
+          <li class="auth-nav-element">
+            <a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a>
           </li>
-          <li><a class="auth-nav-element link" href="tel:+380961111111">+38 096 111 11 11</a></li>
+          <li class="auth-nav-element">
+            <a class="link" href="tel:+380961111111">+38 096 111 11 11</a>
+          </li>
         </ul>
       </div>
     </header>
@@ -65,51 +68,105 @@
           </ul>
         </div>
         <div class="container">
-          <ul class="portfolio-cards list">
-            <li class="portfolio-card">
-              <img src="./images/img8.jpg" alt="Ноутбук" />
-              <h2 class="portfolio-card-title">Технокряк</h2>
-              <p class="portfolio-card-text">Веб-сайт</p>
+          <ul class="portfolio-card-set list">
+            <li class="portfolio-card-item">
+              <article class="card">
+                <div class="card-thumb">
+                  <img src="./images/img8.jpg" alt="Ноутбук" />
+                </div>
+                <div class="portfolio-card-content">
+                  <h2 class="portfolio-card-title">Технокряк</h2>
+                  <p class="portfolio-card-text">Веб-сайт</p>
+                </div>
+              </article>
             </li>
-            <li class="portfolio-card">
-              <img src="./images/img9.jpg" alt="Два боскетболиста с мячем" />
-              <h2 class="portfolio-card-title">Постер New Orlean vs Golden Star</h2>
-              <p class="portfolio-card-text">Дизайн</p>
+            <li class="portfolio-card-item">
+              <article class="card">
+                <div class="card-thumb">
+                  <img src="./images/img9.jpg" alt="Два боскетболиста с мячем" />
+                </div>
+                <div class="portfolio-card-content">
+                  <h2 class="portfolio-card-title">Постер New Orlean vs Golden Star</h2>
+                  <p class="portfolio-card-text">Дизайн</p>
+                </div>
+              </article>
             </li>
-            <li class="portfolio-card">
-              <img src="./images/img10.jpg" alt="Емблема ресторана Сифуд" />
-              <h2 class="portfolio-card-title">Ресторан Seafood</h2>
-              <p class="portfolio-card-text">Приложение</p>
+            <li class="portfolio-card-item">
+              <article class="card">
+                <div class="card-thumb">
+                  <img src="./images/img10.jpg" alt="Емблема ресторана Сифуд" />
+                </div>
+                <div class="portfolio-card-content">
+                  <h2 class="portfolio-card-title">Ресторан Seafood</h2>
+                  <p class="portfolio-card-text">Приложение</p>
+                </div>
+              </article>
             </li>
-            <li class="portfolio-card">
-              <img src="./images/img11.jpg" alt="Наушники" />
-              <h2 class="portfolio-card-title">Проект Prime</h2>
-              <p class="portfolio-card-text">Маркетинг</p>
+            <li class="portfolio-card-item">
+              <article class="card">
+                <div class="card-thumb">
+                  <img src="./images/img11.jpg" alt="Наушники" />
+                </div>
+                <div class="portfolio-card-content">
+                  <h2 class="portfolio-card-title">Проект Prime</h2>
+                  <p class="portfolio-card-text">Маркетинг</p>
+                </div>
+              </article>
             </li>
-            <li class="portfolio-card">
-              <img src="./images/img12.jpg" alt="Две бумажные коробки" />
-              <h2 class="portfolio-card-title">Проект Boxes</h2>
-              <p class="portfolio-card-text">Приложение</p>
+            <li class="portfolio-card-item">
+              <article class="card">
+                <div class="card-thumb">
+                  <img src="./images/img12.jpg" alt="Две бумажные коробки" />
+                </div>
+                <div class="portfolio-card-content">
+                  <h2 class="portfolio-card-title">Проект Boxes</h2>
+                  <p class="portfolio-card-text">Приложение</p>
+                </div>
+              </article>
             </li>
-            <li class="portfolio-card">
-              <img src="./images/img13.jpg" alt="Компьютер фирмы Епл" />
-              <h2 class="portfolio-card-title">Inspiration has no Borders</h2>
-              <p class="portfolio-card-text">Веб-сайт</p>
+            <li class="portfolio-card-item">
+              <article class="card">
+                <div class="card-thumb">
+                  <img src="./images/img13.jpg" alt="Компьютер фирмы Епл" />
+                </div>
+                <div class="portfolio-card-content">
+                  <h2 class="portfolio-card-title">Inspiration has no Borders</h2>
+                  <p class="portfolio-card-text">Веб-сайт</p>
+                </div>
+              </article>
             </li>
-            <li class="portfolio-card">
-              <img src="./images/img14.jpg" alt="Открытая книга" />
-              <h2 class="portfolio-card-title">Издание Limited Edition</h2>
-              <p class="portfolio-card-text">Дизайн</p>
+            <li class="portfolio-card-item">
+              <article class="card">
+                <div class="card-thumb">
+                  <img src="./images/img14.jpg" alt="Открытая книга" />
+                </div>
+                <div class="portfolio-card-content">
+                  <h2 class="portfolio-card-title">Издание Limited Edition</h2>
+                  <p class="portfolio-card-text">Дизайн</p>
+                </div>
+              </article>
             </li>
-            <li class="portfolio-card">
-              <img src="./images/img15.jpg" alt="Бирка с надписью" />
-              <h2 class="portfolio-card-title">Проект LAB</h2>
-              <p class="portfolio-card-text">Маркетинг</p>
+            <li class="portfolio-card-item">
+              <article class="card">
+                <div class="card-thumb">
+                  <img src="./images/img15.jpg" alt="Бирка с надписью" />
+                </div>
+                <div class="portfolio-card-content">
+                  <h2 class="portfolio-card-title">Проект LAB</h2>
+                  <p class="portfolio-card-text">Маркетинг</p>
+                </div>
+              </article>
             </li>
-            <li class="portfolio-card">
-              <img src="./images/img16.jpg" alt="Руки на клавиатуре ноутбука" />
-              <h2 class="portfolio-card-title">Growing Business</h2>
-              <p class="portfolio-card-text">Приложение</p>
+            <li class="portfolio-card-item">
+              <article class="card">
+                <div class="card-thumb">
+                  <img src="./images/img16.jpg" alt="Руки на клавиатуре ноутбука" />
+                </div>
+                <div class="portfolio-card-content">
+                  <h2 class="portfolio-card-title">Growing Business</h2>
+                  <p class="portfolio-card-text">Приложение</p>
+                </div>
+              </article>
             </li>
           </ul>
         </div>
@@ -122,7 +179,7 @@
         <!--Контакты-->
         <address class="address">г. Киев, пр-т Леси Украинки, 26</address>
         <address class="address">
-          <a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a><br />
+          <a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a>
           <a class="link" href="tel:+380961111111">+38 096 111 11 11</a>
         </address>
       </div>
