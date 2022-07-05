@@ -99,8 +99,7 @@ img {
     margin-right: 93px;    
     font-size: 26px;
     color: var(--brand-color-black);    
-    font-family: 'Raleway', sans-serif;    
-    line-height: 1.17;    
+    font-family: 'Raleway', sans-serif;        
 }
 .logo span{
     color: var(--brand-color-blue-light);
