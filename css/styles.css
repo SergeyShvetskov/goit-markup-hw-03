@@ -283,47 +283,6 @@ margin-bottom: 5px;
     line-height: 1.88;
     color: var(--brand-color-gray);
 }
-/* Вариант №2 */
-/* 
-.portfolio-card-set {
-    margin-top: calc(-1 * var(--card-set-portfolio));
-    margin-left: calc(-1 * var(--card-set-portfolio));
-    display: flex;
-    flex-wrap: wrap;
-}
-.portfolio-card-item {
-    margin-right: 20px;
-    margin-bottom: 30px;
-    width: 370px;
-    background-color: tomato;
-    outline: solid black;
-    margin-top: var(--card-set-portfolio);
-    margin-left: var(--card-set-portfolio);
-    flex-basis: calc(100% / 3 - var(--card-set-portfolio));
-}
-.portfolio-card-item + .portfolio-card-item {
-    margin-right: 30px;
-}
- .portfolio-card-item:nth-child(3n + 3) {
-    margin-left: 0;    
-    outline:  solid black;
-} 
-
-.portfolio-card-content {
-    padding: 20px 24px 19px 24px;
-    border: 1px solid var(--brand-color-gray-border);
-    border-top: none;
-}
-.portfolio-card-title {
-    margin-bottom: 4px;
-    font-size: 18px;
-    line-height: 2;
-    letter-spacing: 0.06em;
-}
-.portfolio-card-text {
-    line-height: 1.88;
-    color: var(--brand-color-gray);
-} */
 
 
 .container {
