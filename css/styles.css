@@ -292,7 +292,7 @@ margin-bottom: 5px;
     width: 1200px;
     padding-left: 15px;
     padding-right: 15px;    
-    outline: solid tomato;
+    /* outline: solid tomato; */
 }
 .section {
     padding: 94px 0;    
